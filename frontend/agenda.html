@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Agenda Encontrada</title>
+
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/agenda.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="background-grid"></div>
+
+<header>
+
+<div class="logo">
+
+<div class="logo-circle">
+
+<i class="fa-solid fa-calendar-days"></i>
+
+</div>
+
+<div>
+
+<h1>Agenda Encontrada</h1>
+
+<span>Pacientes localizados na agenda diária</span>
+
+</div>
+
+</div>
+
+</header>
+
+<main>
+
+<section class="top">
+
+<div>
+
+<h2>61 pacientes encontrados</h2>
+
+<p>Os pacientes abaixo serão enviados para o processo automático de agendamento.</p>
+
+</div>
+
+<a href="processamento.html" class="btn">
+
+<i class="fa-solid fa-play"></i>
+
+Iniciar Automação
+
+</a>
+
+</section>
+
+<section class="table-card">
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>Código</th>
+
+<th>Paciente</th>
+
+<th>Especialidade</th>
+
+<th>Status</th>
+
+</tr>
+
+</thead>
+
+<tbody id="tbody">
+
+</tbody>
+
+</table>
+
+</section>
+
+</main>
+
+<script src="js/agenda.js"></script>
+
+</body>
+
+</html>

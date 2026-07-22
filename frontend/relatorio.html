@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>J.A.R.V.I.S. | Relatório</title>
+
+<link rel="stylesheet" href="css/global.css">
+<link rel="stylesheet" href="css/relatorio.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+<div class="background-grid"></div>
+
+<header>
+
+<div class="logo">
+
+<div class="logo-circle">
+
+📊
+
+</div>
+
+<div>
+
+<h1>Relatório Final</h1>
+
+<span>Resumo da Execução</span>
+
+</div>
+
+</div>
+
+</header>
+
+<main>
+
+<section class="cards">
+
+<div class="card">
+
+<h3>Pacientes</h3>
+
+<h2>61</h2>
+
+</div>
+
+<div class="card">
+
+<h3>Sucesso</h3>
+
+<h2>58</h2>
+
+</div>
+
+<div class="card">
+
+<h3>Falhas</h3>
+
+<h2>3</h2>
+
+</div>
+
+<div class="card">
+
+<h3>Tempo</h3>
+
+<h2>04:12</h2>
+
+</div>
+
+</section>
+
+<section class="graficos">
+
+<div class="card">
+
+<h3>Resultado</h3>
+
+<canvas id="pizza"></canvas>
+
+</div>
+
+<div class="card">
+
+<h3>Especialidades</h3>
+
+<canvas id="barra"></canvas>
+
+</div>
+
+</section>
+
+<section class="card">
+
+<h3>Resumo Executivo</h3>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>Métrica</th>
+
+<th>Resultado</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Pacientes encontrados</td>
+
+<td>61</td>
+
+</tr>
+
+<tr>
+
+<td>Consultas agendadas</td>
+
+<td>58</td>
+
+</tr>
+
+<tr>
+
+<td>Falhas</td>
+
+<td>3</td>
+
+</tr>
+
+<tr>
+
+<td>Taxa de sucesso</td>
+
+<td>95,1%</td>
+
+</tr>
+
+<tr>
+
+<td>Tempo total</td>
+
+<td>4m12s</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</section>
+
+<section class="buttons">
+
+<button id="download">
+
+Baixar Relatório
+
+</button>
+
+<a href="index.html">
+
+Nova Demonstração
+
+</a>
+
+</section>
+
+</main>
+
+<script src="js/relatorio.js"></script>
+
+</body>
+
+</html>

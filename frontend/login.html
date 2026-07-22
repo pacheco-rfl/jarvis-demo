@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>J.A.R.V.I.S. | Login</title>
+
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/login.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="background-grid"></div>
+
+<div class="login-container">
+
+    <div class="login-card">
+
+        <div class="logo-login">
+
+            <i class="fa-solid fa-robot"></i>
+
+            <h1>J.A.R.V.I.S.</h1>
+
+            <p>Healthcare Scheduling Automation</p>
+
+        </div>
+
+        <form id="loginForm">
+
+            <label>Usuário</label>
+
+            <input
+                type="text"
+                value="demo.usuario"
+                readonly>
+
+            <label>Senha</label>
+
+            <input
+                type="password"
+                value="123456"
+                readonly>
+
+            <button id="loginButton">
+
+                <i class="fa-solid fa-right-to-bracket"></i>
+
+                Entrar
+
+            </button>
+
+        </form>
+
+        <div id="status">
+
+            Sistema aguardando autenticação.
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="js/login.js"></script>
+
+</body>
+
+</html>

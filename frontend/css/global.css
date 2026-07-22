@@ -1,0 +1,175 @@
+:root{
+
+    --bg:#07111f;
+    --bg2:#0d1b2f;
+
+    --card:#111d31;
+
+    --primary:#3b82f6;
+
+    --primary-hover:#2563eb;
+
+    --cyan:#38bdf8;
+
+    --success:#22c55e;
+
+    --danger:#ef4444;
+
+    --text:#ffffff;
+
+    --text2:#b6c2d2;
+
+    --border:#1e2f47;
+
+    --shadow:0 15px 40px rgba(0,0,0,.35);
+
+}
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+body{
+
+    font-family:"Inter",sans-serif;
+
+    background:var(--bg);
+
+    color:var(--text);
+
+    overflow-x:hidden;
+
+}
+
+a{
+
+    text-decoration:none;
+
+    color:inherit;
+
+}
+
+.background-grid{
+
+    position:fixed;
+
+    inset:0;
+
+    z-index:-2;
+
+    background:
+        radial-gradient(circle at top left,#2563eb22,transparent 35%),
+        radial-gradient(circle at bottom right,#06b6d422,transparent 35%),
+        var(--bg);
+
+}
+
+.background-grid::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background-image:
+    linear-gradient(rgba(255,255,255,.03) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(255,255,255,.03) 1px,transparent 1px);
+
+    background-size:40px 40px;
+
+}
+
+header{
+
+    width:100%;
+
+    padding:30px 8%;
+
+}
+
+.logo{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+
+}
+
+.logo-circle{
+
+    width:70px;
+
+    height:70px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:linear-gradient(135deg,var(--primary),var(--cyan));
+
+    font-size:30px;
+
+}
+
+.logo h1{
+
+    font-size:34px;
+
+    letter-spacing:6px;
+
+}
+
+.logo span{
+
+    color:var(--text2);
+
+}
+
+main{
+
+    width:min(1250px,92%);
+
+    margin:auto;
+
+}
+
+footer{
+
+    text-align:center;
+
+    color:var(--text2);
+
+    margin:70px 0 30px;
+
+}
+
+.card{
+
+    background:rgba(255,255,255,.04);
+
+    border:1px solid var(--border);
+
+    border-radius:20px;
+
+    backdrop-filter:blur(12px);
+
+    box-shadow:var(--shadow);
+
+}

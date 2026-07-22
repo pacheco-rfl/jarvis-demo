@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>J.A.R.V.I.S. | Processamento</title>
+
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/processamento.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="background-grid"></div>
+
+<header>
+
+<div class="logo">
+
+<div class="logo-circle">
+
+<i class="fa-solid fa-robot"></i>
+
+</div>
+
+<div>
+
+<h1>J.A.R.V.I.S.</h1>
+
+<span>Execução da Automação</span>
+
+</div>
+
+</div>
+
+</header>
+
+<main>
+
+<div class="dashboard">
+
+<div class="card">
+
+<h3>Paciente Atual</h3>
+
+<h2 id="pacienteAtual">-</h2>
+
+</div>
+
+<div class="card">
+
+<h3>Processados</h3>
+
+<h2 id="contador">0 / 61</h2>
+
+</div>
+
+<div class="card">
+
+<h3>Sucesso</h3>
+
+<h2 id="sucesso">0</h2>
+
+</div>
+
+<div class="card">
+
+<h3>Falhas</h3>
+
+<h2 id="falhas">0</h2>
+
+</div>
+
+</div>
+
+<section class="progress-card">
+
+<div class="progress-header">
+
+<span>Progresso da Automação</span>
+
+<span id="percentual">0%</span>
+
+</div>
+
+<div class="progress">
+
+<div id="bar"></div>
+
+</div>
+
+</section>
+
+<section class="terminal">
+
+<div class="terminal-title">
+
+<i class="fa-solid fa-terminal"></i>
+
+Console de Execução
+
+</div>
+
+<div id="console"></div>
+
+</section>
+
+<div class="actions">
+
+<a href="relatorio.html" id="finalizar" class="disabled">
+
+Ver Relatório
+
+</a>
+
+</div>
+
+</main>
+
+<script src="js/processamento.js"></script>
+
+</body>
+
+</html>
