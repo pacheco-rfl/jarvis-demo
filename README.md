@@ -1,4 +1,4 @@
-# 🤖 J.A.R.V.I.S. — Healthcare Scheduling Automation (Demo)
+# 🤖 J.A.R.V.I.S. — (Demo)
 
 > Demonstração interativa de uma solução de automação de processos (RPA) para agendamento hospitalar.
 
@@ -16,7 +16,7 @@ A versão completa da automação foi desenvolvida em Python e integra técnicas
 
 **Acesse a demonstração:**
 
- https://pacheco-rfl.github.io/jarvis-demo/
+ https://pacheco-rfl.github.io/jarvis-demo/index.html
 
 ---
 
